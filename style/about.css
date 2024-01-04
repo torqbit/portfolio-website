@@ -24,3 +24,22 @@ section.profile-description>div:nth-child(4){
     font-size:20px;
     color:#888
 }
+
+
+@media screen and (max-width:425px){
+    section.profile-description{
+        margin-top:50px;
+        }
+        
+        section.profile-description>img{
+        margin-top:90px;
+        margin:0 auto;
+        }	
+            section.profile-description{
+                width:385px;
+                 margin:100px auto;
+                height:500px;
+                
+                    }
+                }
+    
