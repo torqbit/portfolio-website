@@ -1,0 +1,26 @@
+section.profile-description{
+    text-align:center;
+    font-size:24px;
+    color:#666;
+    width:750px;
+    margin:auto;
+    }
+section.profile-description>img{
+    margin-top:90px;
+    border:10px solid white;
+    border-radius:100px;
+    }
+section.profile-description>div:nth-child(2){
+    margin-top:30px;
+    font-weight:bold;
+    }
+section.profile-description>div:nth-child(3){
+    margin-top:20px;
+    font-size:20px;
+    color:#666;
+    }
+section.profile-description>div:nth-child(4){
+    margin-top:20px;
+    font-size:20px;
+    color:#888
+}
