@@ -1,51 +1,51 @@
-section.icons{
+article.icons{
     display:flex;
     align-items:center;
     justify-content:center;
     margin-top:20px;
 }
-section.icons>h2{
+article.icons>h2{
     margin-top:20px;
     font-size:30px;
     color:#888;
 }
-section.icons>img{
+article.icons>img{
     height:60px;
     width:60px;
     margin:5px 0px 0px 0px;
 
 }
-section.tools{
+article.tools{
     width:1000px;
     margin:auto;
     margin-top:150px;
 }
-section.tools>h2{
+article.tools>h2{
     color:#666;
 
 }
-section.tools>div{
+article.tools>div{
     height:200px;
     background-color:white;
     border-radius:8px;
     margin-top:30px;
     padding:30px 0px 0px 30px;
 }
-section.tools>div>p{
+article.tools>div>p{
     font-size:14px;
     color:#666;
 }
 
-section.tools>div>p:first-child{
+article.tools>div>p:first-child{
     
     border-left:4px solid #eee;
 }
-section.tools>div>h3{
+article.tools>div>h3{
     font-size:16px;
     font-weight:bold;
     color:#888;
 }
-section.tools>div>a{
+article.tools>div>a{
     text-decoration:none;
     color:#888;
     padding:10px 8px 10px 8px;
@@ -53,28 +53,30 @@ section.tools>div>a{
     display:flex;
     align-items:center;
     width:90px;;
-    background-image:url(right-arrow-dark.png);
+    background-image:url(../img/right-arrow-dark.png);
     background-repeat: no-repeat;
-background-position: right;
+    background-position: right;
 }
-section.tools>div>a:hover{
+article.tools>div>a:hover{
     background-color:black;
     color:white;
-           background-image:url(right-arrow-light.png);
-      background-repeat: no-repeat;
+    background-image:url(../img/right-arrow-light.png);
+ 
+    background-repeat: no-repeat;
 }
 
 @media screen and (max-width:425px){
 
-	section.tools{
+article.tools{
 		width:385px;	
-		margin:0px auto;}
-
-		section.tools>div{
-   		 margin-top:30px;
-    			padding:10px 10px 10px 10px;
+		margin:0px auto;
 }
-section.tools>div>p{
+
+article.tools>div{
+    margin-top:30px;
+    padding:10px 10px 10px 10px;
+}
+article.tools>div>p{
     font-size:12px;
     color:#666;
 }
