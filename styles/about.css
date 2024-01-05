@@ -10,16 +10,16 @@ section.profile-description>img{
     border:10px solid white;
     border-radius:100px;
     }
-section.profile-description>div.h1{
+h1.Name-section{
     margin-top:30px;
     font-weight:bold;
     }
-section.profile-description>div.p{
+p.sm-intro{
     margin-top:20px;
     font-size:20px;
     color:#666;
     }
-section.profile-description>div.p{
+p.intro-part{
     margin-top:20px;
     font-size:20px;
     color:#888
