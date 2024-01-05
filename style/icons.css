@@ -4,3 +4,10 @@ section.icons{
     justify-content: center;
     margin-top: 20px;
 }
+@media screen and (max-width:425px){
+    section.icons{
+        margin-top: -150px;
+    }
+
+
+}
