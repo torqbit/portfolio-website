@@ -36,3 +36,28 @@ div.presentation-video > img:last-child
     background-color: white;
     height: 60px;
 }
+@media screen and (max-width: 425px)
+{
+    #presentation > h2
+    {
+        width: 385px;
+        margin: 20px auto;
+    }
+    #presentation > div
+    {
+        width: 350px;
+        display: flex;
+        flex-direction: column;
+    }
+    div.presentation-video 
+    {
+        height: 210px;
+        width: 350px;
+        position: relative;
+    }
+    div.presentation-video > img:first-child
+    {
+	    height: 210px;
+        width: 350px;
+    }
+}
