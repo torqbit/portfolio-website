@@ -1,8 +1,3 @@
-body
-{
-    margin: 0;
-    background-color: #EEE;
-}
 header
 {
     background-color: transparent;
@@ -44,7 +39,7 @@ nav >ul> li > a
     nav
           {
               width: 30px;
-              position: absolute;
+              position: fixed;
               right: 20px;
               top: 20px;
               margin: 0;
