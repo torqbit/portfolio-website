@@ -15,37 +15,37 @@ article.icons>img{
     margin:5px 0px 0px 0px;
 
 }
-article.tools{
+article#tools{
     width:1000px;
     margin:auto;
     margin-top:150px;
 }
-article.tools>h2{
+article#tools>h2{
     color:#666;
 
 }
-article.tools>article{
+article#tools>article{
     height:200px;
     background-color:white;
     border-radius:8px;
     margin-top:30px;
     padding:30px 0px 0px 30px;
 }
-article.tools>article>p{
+article#tools>article>p{
     font-size:14px;
     color:#666;
 }
 
-article.tools>article>p:first-child{
+article#tools>article>p:first-child{
     
     border-left:4px solid #eee;
 }
-article.tools>article>h3{
+article#tools>article>h3{
     font-size:16px;
     font-weight:bold;
     color:#888;
 }
-article.tools>article>a{
+article#tools>article>a{
     text-decoration:none;
     color:#888;
     padding:10px 8px 10px 8px;
@@ -57,7 +57,7 @@ article.tools>article>a{
     background-repeat: no-repeat;
     background-position: right;
 }
-article.tools>article>a:hover{
+article#tools>article>a:hover{
     background-color:black;
     color:white;
     background-image:url(../img/right-arrow-light.png);
@@ -67,16 +67,16 @@ article.tools>article>a:hover{
 
 @media screen and (max-width:425px){
 
-article.tools{
+article#tools{
 		width:385px;	
 		margin:0px auto;
 }
 
-article.tools>article{
+article#tools>article{
     margin-top:30px;
     padding:10px 10px 10px 10px;
 }
-article.tools>article>p{
+article#tools>article>p{
     font-size:12px;
     color:#666;
 }
