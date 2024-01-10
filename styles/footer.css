@@ -16,3 +16,15 @@ footer a
 {
     color: #666;
 }
+@media screen and (max-width: 425px)
+{
+    footer
+    {
+        margin: 20px 0;
+        display: block;
+    }
+    footer > div > ul
+    {
+        flex-direction: column;
+    }
+}
