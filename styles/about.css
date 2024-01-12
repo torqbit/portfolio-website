@@ -3,7 +3,7 @@ section.profile-description{
     font-size:24px;
     color:#666;
     width:750px;
-    margin:auto;
+    margin:-70px auto;
     }
 section.profile-description>img{
     margin-top:90px;
@@ -24,20 +24,27 @@ p.intro-part{
     font-size:20px;
     color:#888
 }
+div.icons{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
 
 @media screen and (max-width:425px){
     section.profile-description{
         margin-top:50px;
-        }
-        
-        section.profile-description>img{
+    }
+    section.profile-description>img{
         margin-top:90px;
         margin:0 auto;
-        }	
-            section.profile-description{
-                width:385px;
-                 margin:100px auto;
-                height:500px;
-                
-                    }
-                }
+    }	
+    section.profile-description{
+        width:385px;
+        margin:100px auto;
+        height:500px;    
+    }
+    div.icons{
+        display: none;
+    }
+}
