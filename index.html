@@ -1,29 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Portfolio</title>
-  
-  <link rel="stylesheet" href="styles/common.css" />
-  <link rel="stylesheet" href="styles/header.css" />
-  <link rel="stylesheet" href="styles/about.css">
-  <link rel="stylesheet" href="styles/open-source.css" />
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/article.css">
+    <link rel="stylesheet" href="styles/common.css" />
+    <link rel="stylesheet" href="styles/header.css" />
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/project.css" />
+    <link rel="stylesheet" href="styles/presentation.css" />
+    <link rel="stylesheet" href="styles/footer.css" />
+    <title>Portfolio</title>
 </head>
 <body>
 	<header>
-		<nav>
-			<ul class="nav-links">
-				<li><a href="#home">Home</a>
-				<li><a href="#articles">Articles</a>
-				<li><a href="#projects">Projects</a>
-				<li><a href="#presentations">Presentations</a>
-			</ul>
-		</nav>
+	<nav class="topnav">
+
+	<ul>
+            <li><a href="">About</a></li>
+            <li><a href="">Articles</a></li>
+            <li><a href="">Project</a></li>
+            <li><a href="">Presentations</a></li>
+        </ul>
+	</nav>
 	</header>
-  <section class="profile-description">
+  
+  <section id="home"  class="profile-description">
 		<img src="https://placehold.jp/120x120.png" placeholder="">
 		<h1 class="Name-section"> Srikant Malakar</h1></h1>
 		<p class="sm-intro">Software developer,Entreperanur,Gym enthustic</p>
@@ -33,8 +35,48 @@
 					 in an hi- tech world which will help me to explore myself and 	
 					realize my potential.
 		</p>
+
+		<div class="icons">
+			<div><img src="img/GitHub.png" ></div>
+			<div><img src="img/Linkedin.png" ></div>
+			<div><img src="img/Youtube.png" ></div>
+			<div><img src="img/Instagram.png" ></div>
+		</section>
+
 	</section>
-	<section id="projects">
+  
+	<section>
+		<article id="tools">
+			<h2>Articles</h2>
+			<article>
+				<p>December 12,2023</p>
+				<h3>Clean Navigation using HTML5&CSS</H3>
+				<p>Use the online image color picker above to select a color and get the HTML Color 
+					Code of this pixel. Also you get the HEX color code value, RGB value and HSV
+						 value. Under
+				</p>
+				<a href="">Read More</a>
+			</article>
+			<article>
+				<p>December 13,2023</p>
+				<h3>Box Model in CSS</H3>
+				<p>Use the online image color picker above to select a color and get the HTML Color Code of 
+					this pixel. Also you get the HEX color code value, RGB value and HSV value. Under
+				</p>
+				<a href="">Read More </a>
+			</article>
+			<article>
+				<p>December 14,2023</p>
+				<h3>Advantages of flex layout</H3>
+				<p>Use the online image color picker above to select a color and get the HTML Color Code of this 
+					pixel. Also you get the HEX color code value, RGB value and HSV value. Under
+				</p>
+				<a href="">Read More </a>
+			</article>
+		</article>
+	</section>
+  
+  	<section id="projects">
         <h2>Open Source Projects</h2>
         <div>
             <div>
@@ -59,5 +101,44 @@
             </div>
         </div>
     </section>
+  
+    <section id="presentation">
+        <h2>Presentations</h2>
+        <div>
+            <div>
+            <div class="presentation-video">
+                <img src="img/presentation-01.png" />
+                <img src="img/play-button.png" />
+            </div>
+            <div>
+                <h4>A talk on Optimizing CSS</h4>
+                <p>November 13, 2023</p>
+            </div>
+        </div>
+        <div>
+            <div class="presentation-video">
+                <img src="img/presentation-01.png" />
+                <img src="img/play-button.png" />
+            </div>
+            <div>
+                <h4>A talk on Optimizing CSS</h4>
+                <p>November 13, 2023</p>
+            </div>
+        </div>
+     </div>
+    </section>
+    <hr/>
+    <footer>
+        <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+			<li><a href="#articles">Articles</a></li>
+			<li><a href="#project">Projects</a></li>
+			<li><a href="#presentations">Presentations</a></li>
+        </ul>
+        <a>&copy; 2024 Mrinal Prakash. All rights reserved.</a>
+    </footer>
 </body>
 </html>
+
+	
+
