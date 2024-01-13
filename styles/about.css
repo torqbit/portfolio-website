@@ -44,8 +44,8 @@ ul.social-links > li {
 
 ul.social-links > li > a {
     display: inline-block; 
-    height: 80px; 
-    width: 80px; 
+    height: 60px; 
+    width: 60px; 
 }
 
 ul.social-links > li > a > img {
