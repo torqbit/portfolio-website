@@ -30,9 +30,17 @@ div.icons{
     justify-content: center;
     margin-top: 20px;
 }
+div.icons{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+
 
 @media screen and (max-width:425px){
-    section.profile-description{
+   section.profile-description{
         margin-top:50px;
     }
     section.profile-description>img{
@@ -40,6 +48,7 @@ div.icons{
         margin:0 auto;
     }	
     section.profile-description{
+
         width:385px;
         margin:100px auto;
         height:500px;    
@@ -48,3 +57,10 @@ div.icons{
         display: none;
     }
 }
+
+         width:385px;
+         margin:100px auto;
+         height:500px;
+      }
+ }
+
