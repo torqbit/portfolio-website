@@ -1,9 +1,7 @@
 .header{
     background-color: transparent;
 }
-
-.topnav
-{
+.topnav{
     width: 500px;
     margin: 75px auto;
     padding: 10px;
@@ -33,7 +31,7 @@
 .hamburger>div{
     height: 4px;
     width: 23px;
-    background-color:var(--primary-font-color) ;
+    background-color:#888;
     margin:5px auto;
 }
 @media screen and (max-width:425px){
