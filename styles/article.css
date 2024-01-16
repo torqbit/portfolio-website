@@ -24,13 +24,13 @@
     display:flex;
     align-items:center;
     width:90px;;
-    background-image:url('img/right-arrow-light');
+    background-image:url('../img/right-arrow-dark.png');
     background-repeat: no-repeat;
     background-position: right;
 }
 #articles > article > article > a:hover
 {
-    background-image: url('img/right-arrow-dark.png');
+    background-image: url('..//img/right-arrow-light.png');
     background-color:black;
     color:white;
     background-repeat: no-repeat;
