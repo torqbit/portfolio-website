@@ -11,3 +11,9 @@
 	  a {
 		  text-decoration: none;
 	  }
+
+      section{
+        --primary-font-color: #666;
+        --secondary-font-color: #888;
+        --button-background: #fff;
+         }
