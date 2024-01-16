@@ -7,7 +7,7 @@ article.icons{
 article.icons>h2{
     margin-top:20px;
     font-size:30px;
-    color:#888;
+    color: var(--secondary-font-color);
 }
 article.icons>img{
     height:60px;
@@ -21,7 +21,7 @@ article#tools{
     margin-top:150px;
 }
 article#tools>h2{
-    color:#666;
+    color:var(--primary-font-color);
 
 }
 article#tools>article{
@@ -33,7 +33,7 @@ article#tools>article{
 }
 article#tools>article>p{
     font-size:14px;
-    color:#666;
+    color:var(--primary-font-color);
 }
 
 article#tools>article>p:first-child{
@@ -43,16 +43,16 @@ article#tools>article>p:first-child{
 article#tools>article>h3{
     font-size:16px;
     font-weight:bold;
-    color:#888;
+    color:var(--secondary-font-color);
 }
 article#tools>article>a{
     text-decoration:none;
-    color:#888;
+    color:var(--secondary-font-color);
     padding:10px 8px 10px 8px;
     margin-left:-10px;
     display:flex;
     align-items:center;
-    width:90px;;
+    width:90px;
     background-image:url(../img/right-arrow-dark.png);
     background-repeat: no-repeat;
     background-position: right;
@@ -78,6 +78,6 @@ article#tools>article{
 }
 article#tools>article>p{
     font-size:12px;
-    color:#666;
+    color:var(--primary-font-color);
 }
 }
