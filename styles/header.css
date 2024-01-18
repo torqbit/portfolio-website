@@ -1,18 +1,7 @@
-header
-{
+.header{
     background-color: transparent;
 }
-ul
-{
-    list-style-type: none;
-    margin: 0;
-}
-a
-{
-    text-decoration: none;
-}
-nav
-{
+.topnav{
     width: 500px;
     margin: 75px auto;
     padding: 10px;
@@ -22,31 +11,42 @@ nav
     border-radius: 25px;
     box-shadow: 0px 4px 12px -8px #888;
 }
-nav > ul
+.topnav > ul
 {
     display: flex;
     align-items: center;
     justify-content: space-around;
     gap: 30px;
 }
-nav >ul> li > a
+.topnav >ul> li > a
 {
     padding: 10px;
-    color: #666;
+    color: var(--primary-font-color);
     font-weight: bold;
 }
-@media screen and (max-width:425px){
-    nav
-          {
-              width: 30px;
-              position: fixed;
-              right: 20px;
-              top: 20px;
-              margin: 0;
-          }
-  
-
-  nav.topnav>ul>li>a{
-      display:none;
+.hamburger{
+    position: relative;
+    display: none;
 }
+.hamburger>div{
+    height: 4px;
+    width: 23px;
+    background-color:#888;
+    margin:5px auto;
+}
+@media screen and (max-width:425px){
+.topnav{
+        width: 30px;
+        position: fixed;
+        right: 20px;
+        top: 20px;
+        margin: 0;
+        z-index: -1;
+        }
+.topnav >ul> li > a{
+        display: none;
+        }
+.hamburger{
+         display: block;
+        }
 }
