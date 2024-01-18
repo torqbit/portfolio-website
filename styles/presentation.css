@@ -2,6 +2,7 @@
 {
     width: 1000px;
     margin: 20px auto;
+    color:var(--primary-font-color);
 }
 #presentation > div
 {
@@ -16,6 +17,7 @@
 }
 #presentation h4
 {
+    font-size:20px;
     margin: 10px 10px 10px 0;
 }
 div.presentation-video
@@ -35,6 +37,9 @@ div.presentation-video > img:last-child
     padding: 20px;
     background-color: white;
     height: 60px;
+}
+p{
+color: var(--primary-font-color);
 }
 @media screen and (max-width: 425px)
 {
