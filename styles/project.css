@@ -15,24 +15,31 @@
 {
     width: 1000px;
     margin: 20px auto;
+    color:var(--primary-font-color);
 }
 #projects span
 {
     position: absolute;
     top: 20px;
-    padding: 10px;
+    padding: 10px 20px;
     color: white;
     background-color: black;
     font-size: 20px;
     font-weight: bold;
-    border-left: 4px solid white;
+    border-left: 8px solid rgb(0 161 255 / 56%) ;
+}
+#projects span.no-1{
+  border-left: 8px solid rgb(255 40 0 / 64%)  ;
+}
+#projects span.no-4{
+ border-left: 8px solid rgb(127 127 127 / 64%) ;
 }
 #projects p
 {
     padding: 15px 0 15px 20px;
     bottom: 0;
     height: 20px;
-    background-color: #1a35b2d4;
+    background-color:rgb(0 161 255 / 56%) ;
     color: white;
     font-weight: bold;
     font-size: 20px;
@@ -40,13 +47,24 @@
     width: 480px;
     margin: 0;
 }
+#projects p.project-1
+{
+background-color:rgb(255 40 0 / 64%);
+  }
+#projects p.project-4
+{
+background-color:rgb(127 127 127 / 64%);
+  }
 @media screen and (max-width: 425px)
 {
+
     #projects > div > div
     {
         height: 210px;
-        width: 380px;
         position: relative;
+	margin:0px auto;
+	width:350px;
+
     }
     #projects h2
     {
@@ -66,6 +84,6 @@
     }
     #projects p
     {
-        width: 332px;
+        width: 330px;
     }
 }
