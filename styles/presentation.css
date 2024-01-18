@@ -39,14 +39,14 @@ div.presentation-video > img:last-child
     height: 60px;
 }
 p{
-color: var(--primary-font-color);
+color:var(--secondary-font-color);
 }
 @media screen and (max-width: 425px)
 {
     #presentation > h2
     {
         width: 385px;
-        margin: 20px auto;
+        margin: 20px 40px;
     }
     #presentation > div
     {
@@ -62,7 +62,17 @@ color: var(--primary-font-color);
     }
     div.presentation-video > img:first-child
     {
-	    height: 210px;
+	height: 210px;
         width: 350px;
     }
+
+    div.presentation-video > img:last-child
+    {
+	top:76px;
+	right:145px;
+    }
+   #presentation h4
+   {
+    font-size:16px;
+   }
 }
