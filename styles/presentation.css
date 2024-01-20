@@ -2,6 +2,7 @@
 {
     width: 1000px;
     margin: 20px auto;
+    color:var(--primary-font-color);
 }
 #presentation > div
 {
@@ -16,6 +17,7 @@
 }
 #presentation h4
 {
+    font-size:20px;
     margin: 10px 10px 10px 0;
 }
 div.presentation-video
@@ -36,12 +38,15 @@ div.presentation-video > img:last-child
     background-color: white;
     height: 60px;
 }
+p{
+color:var(--secondary-font-color);
+}
 @media screen and (max-width: 425px)
 {
     #presentation > h2
     {
         width: 385px;
-        margin: 20px auto;
+        margin: 20px 40px;
     }
     #presentation > div
     {
@@ -57,7 +62,17 @@ div.presentation-video > img:last-child
     }
     div.presentation-video > img:first-child
     {
-	    height: 210px;
+	height: 210px;
         width: 350px;
     }
+
+    div.presentation-video > img:last-child
+    {
+	top:76px;
+	right:145px;
+    }
+   #presentation h4
+   {
+    font-size:16px;
+   }
 }
