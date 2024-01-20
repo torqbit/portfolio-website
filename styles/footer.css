@@ -1,30 +1,55 @@
-footer > div
+footer
 {
-    display: flex;
     width: 1000px;
-    margin: 0 auto;
+    height: 50px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 50px;
+    margin: 0 auto;
+color: gray;
 }
-footer > div > ul
+.footer-links a
 {
+color: gray;
+}
+footer > div > ul 
+{
+    list-style-type: none;
+    gap: 47px;
+    font-weight: bold;
     display: flex;
-    gap: 10px;
 }
-footer a
+footer > div 
 {
-    color: #666;
+    width: 300px;
+    text-align: center;
+}
+footer > div:last-child 
+{
+    width: 300px;
+}
+footer > div {
+    text-align: center;
 }
 @media screen and (max-width: 425px)
 {
     footer
     {
-        margin: 20px 0;
-        display: block;
+        width: 385px;
+height: 50px;
+flex-direction: column;
     }
-    footer > div > ul
-    {
-        flex-direction: column;
-    }
+footer > div
+{
+width: 100%;
+display: flex;
+flex-direction: column;
+}
+.footer-links {
+    flex-direction: row;
+    width: 100%;
+    padding: 0;
+    gap: 35px;
+    margin-left: 28px;
+}
 }
